@@ -1,10 +1,13 @@
 import React from "react";
+import PageContent from "./components/PageContent";
+import Navigation from "./components/Navigation";
 
-const App = () =>{
+const App = () => {
     return (
-        <h1>
-            Samantha's Portfolio
-        </h1>
+        <>
+            <Navigation />
+            <PageContent />
+        </>
     )
 }
 
